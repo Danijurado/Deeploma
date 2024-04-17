@@ -1,0 +1,9 @@
+{
+  "name": "@globero/load-balancer-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "ci:build": "./bin/build.sh"
+  }
+}

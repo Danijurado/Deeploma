@@ -1,0 +1,3 @@
+{
+  "extends": "@globero/typescript-config/base.json"
+}

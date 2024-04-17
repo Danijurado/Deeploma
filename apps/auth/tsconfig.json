@@ -1,0 +1,33 @@
+{
+  "extends": "@globero/typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "~shared": [
+        "src/shared"
+      ],
+      "~shared/*": [
+        "src/shared/*"
+      ],
+      "~session/*": [
+        "src/session/*"
+      ],
+      "~session": [
+        "src/session"
+      ],
+      "~user/*": [
+        "src/user/*"
+      ],
+      "~user": [
+        "src/user"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
